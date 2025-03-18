@@ -1,0 +1,170 @@
+@import url('https://fonts.cdnfonts.com/css/starborn');
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #333333;
+}
+
+.title {
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Starborn';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Starborn'), url('https://fonts.cdnfonts.com/s/17922/Starborn.woff') format('woff');
+    margin: 0 auto;
+}
+
+.headings {
+    align-content:center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Starborn';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Starborn'), url('https://fonts.cdnfonts.com/s/17922/Starborn.woff') format('woff');
+    margin: 0 auto
+}
+
+.bodyText {
+    align-content:center;
+    justify-content: center;
+    font-size: x-large;
+    color: rgb(175, 175, 175);
+    font-family: "Sue Ellen Francisco", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 0 auto;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+
+.GraphContainer {
+    min-height: 600px;
+    max-width: fit-content;
+}
+
+.chart{
+    padding: 2rem;
+    max-width: 600px;
+    border: 1px solid #c7c7c7;
+    align-items: right;
+    border-radius:  2rem;
+    background: #494949;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+.surveyBody {
+    align-content:center;
+    justify-content: center;
+    font-size: xx-large;
+    color: rgb(175, 175, 175);
+    font-family: "Sue Ellen Francisco", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 450Spx;
+}
+
+#inty {
+    align-content:center;
+    justify-content: center;
+    font-size: xx-large;
+    color: rgb(175, 175, 175);
+    font-family: "Sue Ellen Francisco", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 450Spx;
+}
+
+#stringy {
+    align-content:center;
+    justify-content: center;
+    font-size: xx-large;
+    color: rgb(175, 175, 175);
+    font-family: "Sue Ellen Francisco", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 450Spx;
+}
+
+#boolResponse {
+    align-content:center;
+    justify-content: center;
+    font-size: xx-large;
+    color: rgb(175, 175, 175);
+    font-family: "Sue Ellen Francisco", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 15px;
+}
+
+.stringyStyle {
+    align-content:center;
+    justify-content: center;
+    font-size: xx-large;
+    color: rgb(175, 175, 175);
+    font-family: "Sue Ellen Francisco", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 450Spx;
+}
+
+#surveyContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px
+}
+
+#button {
+    margin-left: 15px;
+}
+
+.site-text {
+    align-items: center;
+    justify-content: center;
+    margin-left: 400
+}
+
+.chart-text {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#chart1 {
+    width: 60%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.text-item {
+    text-align: left;
+    font-size: xx-large;
+    color: rgb(175, 175, 175);
+    font-family: "Sue Ellen Francisco", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.item {
+    width: 45%;
+    margin: 10px;
+    box-sizing: border-box;
+}
