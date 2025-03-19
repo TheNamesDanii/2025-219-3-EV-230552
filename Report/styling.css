@@ -1,0 +1,93 @@
+@import url('https://fonts.cdnfonts.com/css/starborn');
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background: #333333;
+  }
+  
+  
+
+
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Starborn';
+    font-weight: normal;
+    font-size: x-large;
+    color: honeydew;
+  }
+  
+
+
+  .chart-section {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .chart-group {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 30px; 
+  }
+  
+  .text-container {
+    flex: 2; 
+    margin-right: 0px; 
+    font-family: "Sue Ellen Francisco", serif;
+    color: rgb(175, 175, 175);
+    font-weight: 400;
+    font-size: xx-large;
+    margin-left: 0 auto;
+    max-height: auto;
+  }
+  
+  .chart-container canvas {
+    max-width: 600px; 
+    max-height: 500px;
+  }
+  
+#pieChart {
+    padding: 2rem;
+    max-width: 600px;
+    border: 1px solid #c7c7c7;
+    align-items: right;
+    border-radius:  2rem;
+    background: #494949;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+#lineMasses {
+    padding: 2rem;
+    max-width: 600px;
+    border: 1px solid #c7c7c7;
+    align-items: right;
+    border-radius:  2rem;
+    background: #494949;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+#lineYearCanvas {
+    padding: 2rem;
+    max-width: 600px;
+    border: 1px solid #c7c7c7;
+    align-items: right;
+    border-radius:  2rem;
+    background: #494949;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+.surveyBar {
+  padding: 2rem;
+  max-width: 600px;
+  border: 1px solid #c7c7c7;
+  align-items: right;
+  border-radius:  2rem;
+  background: #494949;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
